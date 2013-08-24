@@ -1,0 +1,5 @@
+if ps ax | grep /opt/shairport_fremantle/bin/shairport | grep -v grep; then
+	exit 0
+else
+	exit 1
+fi

@@ -1,0 +1,5 @@
+if netstat -lnt 2> /dev/null | grep 6600; then
+	exit 0
+else
+	exit 1
+fi
